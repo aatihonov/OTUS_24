@@ -17,27 +17,43 @@
 Проверка доступности
 
 spine1#ping 10.4.1.1
+
 PING 10.4.1.1 (10.4.1.1) 72(100) bytes of data.
+
 80 bytes from 10.4.1.1: icmp_seq=1 ttl=64 time=6.42 ms
+
 80 bytes from 10.4.1.1: icmp_seq=2 ttl=64 time=2.97 ms
+
 80 bytes from 10.4.1.1: icmp_seq=3 ttl=64 time=3.15 ms
+
 80 bytes from 10.4.1.1: icmp_seq=4 ttl=64 time=2.80 ms
+
 80 bytes from 10.4.1.1: icmp_seq=5 ttl=64 time=2.87 ms
 
 --- 10.4.1.1 ping statistics ---
+
 5 packets transmitted, 5 received, 0% packet loss, time 25ms
+
 rtt min/avg/max/mdev = 2.808/3.648/6.428/1.395 ms, ipg/ewma 6.495/4.985 ms
 
 spine1#ping 10.4.1.3
+
 PING 10.4.1.3 (10.4.1.3) 72(100) bytes of data.
+
 80 bytes from 10.4.1.3: icmp_seq=1 ttl=64 time=16.6 ms
+
 80 bytes from 10.4.1.3: icmp_seq=2 ttl=64 time=4.56 ms
+
 80 bytes from 10.4.1.3: icmp_seq=3 ttl=64 time=4.14 ms
+
 80 bytes from 10.4.1.3: icmp_seq=4 ttl=64 time=4.96 ms
+
 80 bytes from 10.4.1.3: icmp_seq=5 ttl=64 time=3.75 ms
 
 --- 10.4.1.3 ping statistics ---
+
 5 packets transmitted, 5 received, 0% packet loss, time 54ms
+
 rtt min/avg/max/mdev = 3.759/6.815/16.637/4.927 ms, pipe 2, ipg/ewma 13.729/11.544 ms
 
 spine1#ping 10.4.1.5
