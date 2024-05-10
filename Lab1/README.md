@@ -38,6 +38,7 @@ PING 10.4.1.1 (10.4.1.1) 72(100) bytes of data.
 rtt min/avg/max/mdev = 2.808/3.648/6.428/1.395 ms, ipg/ewma 6.495/4.985 ms
 
 
+
 spine1#ping 10.4.1.3
 
 PING 10.4.1.3 (10.4.1.3) 72(100) bytes of data.
@@ -57,6 +58,7 @@ PING 10.4.1.3 (10.4.1.3) 72(100) bytes of data.
 5 packets transmitted, 5 received, 0% packet loss, time 54ms
 
 rtt min/avg/max/mdev = 3.759/6.815/16.637/4.927 ms, pipe 2, ipg/ewma 13.729/11.544 ms
+
 
 spine1#ping 10.4.1.5
 
@@ -78,6 +80,7 @@ PING 10.4.1.5 (10.4.1.5) 72(100) bytes of data.
 
 rtt min/avg/max/mdev = 4.542/14.955/28.946/8.373 ms, pipe 3, ipg/ewma 17.870/21.493 ms
 
+
 spine2#ping 10.4.2.1
 
 PING 10.4.2.1 (10.4.2.1) 72(100) bytes of data.
@@ -98,6 +101,7 @@ PING 10.4.2.1 (10.4.2.1) 72(100) bytes of data.
 
 rtt min/avg/max/mdev = 3.853/6.127/9.202/1.984 ms, ipg/ewma 9.050/7.640 ms
 
+
 spine2#ping 10.4.2.3
 
 PING 10.4.2.3 (10.4.2.3) 72(100) bytes of data.
@@ -117,6 +121,7 @@ PING 10.4.2.3 (10.4.2.3) 72(100) bytes of data.
 5 packets transmitted, 5 received, 0% packet loss, time 55ms
 
 rtt min/avg/max/mdev = 3.251/7.300/16.620/5.001 ms, pipe 2, ipg/ewma 13.818/11.717 ms
+
 
 spine2#ping 10.4.2.5
 
