@@ -13,14 +13,21 @@
 
 ![image](https://github.com/aatihonov/OTUS_24/assets/169416214/7e11277c-76e9-46d0-8ae6-09041a4639b8)
 
+
 Проверка доступности
 
 spine1#ping 10.4.1.1
+
 PING 10.4.1.1 (10.4.1.1) 72(100) bytes of data.
+
 80 bytes from 10.4.1.1: icmp_seq=1 ttl=64 time=6.42 ms
+
 80 bytes from 10.4.1.1: icmp_seq=2 ttl=64 time=2.97 ms
+
 80 bytes from 10.4.1.1: icmp_seq=3 ttl=64 time=3.15 ms
+
 80 bytes from 10.4.1.1: icmp_seq=4 ttl=64 time=2.80 ms
+
 80 bytes from 10.4.1.1: icmp_seq=5 ttl=64 time=2.87 ms
 
 --- 10.4.1.1 ping statistics ---
