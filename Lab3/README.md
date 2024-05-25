@@ -1,33 +1,40 @@
-Домашнее задание №1
+Домашнее задание №3
 
-Проектирование адресного пространства
+Underlay. IS-IS
 
 Цель:
-1. Собрать схему CLOS;
-2. Распределить адресное пространство.
+1. Настроить IS-IS для Underlay сети;
+
 
 Выполнение:
-![image_CLOS](https://github.com/aatihonov/OTUS_24/assets/169416214/d2f85142-88c7-4e41-8cd2-6e611be4bbe5)
 
-Таблица адресов
+Схема сети
 
-![image](https://github.com/aatihonov/OTUS_24/assets/169416214/7e11277c-76e9-46d0-8ae6-09041a4639b8)
+![image_CLOS_ISIS](https://github.com/aatihonov/OTUS_24/assets/169416214/b4f02cae-d987-4cd7-823c-488aa605b86c)
 
-Конфигурация оборудования
+Конфигурация оборудования в приложенных файлах
 
-![image](https://github.com/aatihonov/OTUS_24/assets/169416214/ea06dd7f-d0d2-4d12-a7f4-9206edcf2469)
+Проверка соседства и таблиц марщрутизации
 
-![image](https://github.com/aatihonov/OTUS_24/assets/169416214/40d5ba41-91ae-4380-981c-b82ba8d23900)
+spine-1
 
-![image](https://github.com/aatihonov/OTUS_24/assets/169416214/c629835f-8e4d-443c-a99c-32edb33208f9)
+![image](https://github.com/aatihonov/OTUS_24/assets/169416214/28865747-3970-4f98-8892-760ed64a2d0d)
 
-![image](https://github.com/aatihonov/OTUS_24/assets/169416214/284e9d66-98bc-4a95-83d8-cd7eb32be1e7)
+spine-2
 
-![image](https://github.com/aatihonov/OTUS_24/assets/169416214/9f7a90c8-243e-477f-96f1-c7a715e8d82f)
+![image](https://github.com/aatihonov/OTUS_24/assets/169416214/74f37dae-d969-4432-bfb6-b635f4f54fba)
+
+Проверка связности
+
+![image](https://github.com/aatihonov/OTUS_24/assets/169416214/b72cd713-9b29-4ac2-b1d3-cdec49cd6e6c)
+
+![image](https://github.com/aatihonov/OTUS_24/assets/169416214/7f8468fa-0126-46cf-8891-ce507d26cd9d)
 
 
-Проверка доступности
 
-![image](https://github.com/aatihonov/OTUS_24/assets/169416214/d75a8d22-9dae-45b7-91e8-7137af7b93a0)
 
-![image](https://github.com/aatihonov/OTUS_24/assets/169416214/302f7a7b-9f06-4895-a321-02e380a46311)
+
+
+
+
+
