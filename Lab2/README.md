@@ -1,33 +1,29 @@
-Домашнее задание №1
+Домашнее задание №2
 
-Проектирование адресного пространства
+Underlay. OSPF
 
 Цель:
-1. Собрать схему CLOS;
-2. Распределить адресное пространство.
+1. Настроить OSPF для Underlay сети
+
 
 Выполнение:
-![image_CLOS](https://github.com/aatihonov/OTUS_24/assets/169416214/d2f85142-88c7-4e41-8cd2-6e611be4bbe5)
 
-Таблица адресов
+Схема сети
 
-![image](https://github.com/aatihonov/OTUS_24/assets/169416214/7e11277c-76e9-46d0-8ae6-09041a4639b8)
+![image](https://github.com/aatihonov/OTUS_24/assets/169416214/a2d46a75-2d30-41ca-8a31-b565b04ac1c3)
 
-Конфигурация оборудования
 
-![image](https://github.com/aatihonov/OTUS_24/assets/169416214/ea06dd7f-d0d2-4d12-a7f4-9206edcf2469)
+Конфигурация оборудования в приложенных файлах
 
-![image](https://github.com/aatihonov/OTUS_24/assets/169416214/40d5ba41-91ae-4380-981c-b82ba8d23900)
-
-![image](https://github.com/aatihonov/OTUS_24/assets/169416214/c629835f-8e4d-443c-a99c-32edb33208f9)
-
-![image](https://github.com/aatihonov/OTUS_24/assets/169416214/284e9d66-98bc-4a95-83d8-cd7eb32be1e7)
-
-![image](https://github.com/aatihonov/OTUS_24/assets/169416214/9f7a90c8-243e-477f-96f1-c7a715e8d82f)
+Примечание:
+1. настройка passive-interface выполнена только на leaf
+2. настройка authentication выполнена только на линках со spine1
 
 
 Проверка доступности
 
-![image](https://github.com/aatihonov/OTUS_24/assets/169416214/d75a8d22-9dae-45b7-91e8-7137af7b93a0)
+![image](https://github.com/aatihonov/OTUS_24/assets/169416214/998026a6-fdca-4f54-9d53-6cc2f3a450c2)
 
-![image](https://github.com/aatihonov/OTUS_24/assets/169416214/302f7a7b-9f06-4895-a321-02e380a46311)
+![image](https://github.com/aatihonov/OTUS_24/assets/169416214/feddc6bf-d0e1-4399-bb3b-0cb93c64d922)
+
+
