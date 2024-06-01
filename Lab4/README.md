@@ -36,3 +36,11 @@ spine2
 
 Проверка доступности
 
+![image](https://github.com/aatihonov/OTUS_24/assets/169416214/b8822e16-3498-42f4-b2df-bc0a8e80f849)
+
+![image](https://github.com/aatihonov/OTUS_24/assets/169416214/e7d90be9-3a5f-4097-a837-2b0b99c419b3)
+
+![image](https://github.com/aatihonov/OTUS_24/assets/169416214/b1ce53a0-0c94-4543-9fec-73332dc7aec1)
+
+
+
