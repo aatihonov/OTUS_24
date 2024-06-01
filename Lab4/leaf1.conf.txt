@@ -1,0 +1,68 @@
+leaf1#show running-config
+! Command: show running-config
+! device: leaf1 (vEOS-lab, EOS-4.27.3F)
+!
+! boot system flash:/vEOS-lab.swi
+!
+no aaa root
+!
+transceiver qsfp default-mode 4x10G
+!
+service routing protocols model multi-agent
+!
+hostname leaf1
+!
+spanning-tree mode mstp
+!
+interface Ethernet1
+   description to_PC1
+!
+interface Ethernet2
+   description to_spine1
+   no switchport
+   ip address 10.4.1.1/31
+   bfd interval 100 min-rx 100 multiplier 3
+!
+interface Ethernet3
+   description to_spine2
+   no switchport
+   ip address 10.4.2.1/31
+   bfd interval 100 min-rx 100 multiplier 3
+!
+interface Ethernet4
+!
+interface Ethernet5
+!
+interface Ethernet6
+!
+interface Ethernet7
+!
+interface Ethernet8
+!
+interface Loopback1
+   ip address 10.2.0.1/32
+!
+interface Management1
+!
+ip routing
+!
+ip prefix-list PL_LOOP
+   seq 10 permit 10.2.0.1/32
+!
+route-map RM_CONN permit 10
+   match ip address prefix-list PL_LOOP
+!
+router bgp 65001
+   router-id 10.2.0.1
+   timers bgp 3 9
+   maximum-paths 64 ecmp 64
+   neighbor SPINE peer group
+   neighbor SPINE remote-as 65000
+   neighbor SPINE bfd
+   neighbor SPINE password 7 G4WRwtd4yRU=
+   neighbor SPINE send-community
+   neighbor 10.4.1.0 peer group SPINE
+   neighbor 10.4.2.0 peer group SPINE
+   redistribute connected route-map RM_CONN
+!
+end
