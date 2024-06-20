@@ -12,7 +12,6 @@ VxLAN. L3VNI
 Схема сети
 
 ![image_CLOS_BGP_EVPN L3](https://github.com/aatihonov/OTUS_24/assets/169416214/f0cd32aa-53ef-4426-84db-044262f06b38)
-
 Конфигурация оборудования
 
 leaf1
