@@ -1,33 +1,31 @@
-Домашнее задание №1
+Домашнее задание №6
 
-Проектирование адресного пространства
+VxLAN. L3VNI
 
 Цель:
-1. Собрать схему CLOS;
-2. Распределить адресное пространство.
+1. Настроить маршрутизацию в рамках Overlay между клиентами
+2. Настроить каждого клиента в своем VNI
+3. Настроить маршрутизацию между клиентами.
 
 Выполнение:
-![image_CLOS](https://github.com/aatihonov/OTUS_24/assets/169416214/d2f85142-88c7-4e41-8cd2-6e611be4bbe5)
+Схема сети
 
-Таблица адресов
-
-![image](https://github.com/aatihonov/OTUS_24/assets/169416214/7e11277c-76e9-46d0-8ae6-09041a4639b8)
+![image_CLOS_BGP_EVPN L3](https://github.com/aatihonov/OTUS_24/assets/169416214/f0cd32aa-53ef-4426-84db-044262f06b38)
 
 Конфигурация оборудования
 
-![image](https://github.com/aatihonov/OTUS_24/assets/169416214/ea06dd7f-d0d2-4d12-a7f4-9206edcf2469)
+leaf1
+![image](https://github.com/aatihonov/OTUS_24/assets/169416214/84b9287e-59f4-44eb-8ae9-0f4c7917cc9a)
 
-![image](https://github.com/aatihonov/OTUS_24/assets/169416214/40d5ba41-91ae-4380-981c-b82ba8d23900)
+leaf2
+![image](https://github.com/aatihonov/OTUS_24/assets/169416214/f309c322-1efa-40b2-aa3b-bf1e39494ef6)
 
-![image](https://github.com/aatihonov/OTUS_24/assets/169416214/c629835f-8e4d-443c-a99c-32edb33208f9)
+leaf3
+![image](https://github.com/aatihonov/OTUS_24/assets/169416214/9a9625a2-01b3-40c8-b2c6-b5d61807da79)
 
-![image](https://github.com/aatihonov/OTUS_24/assets/169416214/284e9d66-98bc-4a95-83d8-cd7eb32be1e7)
-
-![image](https://github.com/aatihonov/OTUS_24/assets/169416214/9f7a90c8-243e-477f-96f1-c7a715e8d82f)
-
+spine
+без изменений
 
 Проверка доступности
 
-![image](https://github.com/aatihonov/OTUS_24/assets/169416214/d75a8d22-9dae-45b7-91e8-7137af7b93a0)
 
-![image](https://github.com/aatihonov/OTUS_24/assets/169416214/302f7a7b-9f06-4895-a321-02e380a46311)
