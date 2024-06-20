@@ -1,0 +1,46 @@
+PC1> sho ip
+
+NAME        : PC1[1]
+IP/MASK     : 192.168.10.1/24
+GATEWAY     : 192.168.10.254
+DNS         :
+MAC         : 00:50:79:66:68:04
+LPORT       : 20000
+RHOST:PORT  : 127.0.0.1:30000
+MTU         : 1500
+
+
+PC2> sho ip
+
+NAME        : PC2[1]
+IP/MASK     : 192.168.11.1/24
+GATEWAY     : 192.168.11.254
+DNS         :
+MAC         : 00:50:79:66:68:05
+LPORT       : 20000
+RHOST:PORT  : 127.0.0.1:30000
+MTU         : 1500
+
+
+PC3> sho ip
+
+NAME        : PC3[1]
+IP/MASK     : 192.168.12.1/24
+GATEWAY     : 192.168.12.254
+DNS         :
+MAC         : 00:50:79:66:68:09
+LPORT       : 20000
+RHOST:PORT  : 127.0.0.1:30000
+MTU         : 1500
+
+
+PC4> sho ip
+
+NAME        : PC4[1]
+IP/MASK     : 192.168.12.2/24
+GATEWAY     : 192.168.12.254
+DNS         :
+MAC         : 00:50:79:66:68:0a
+LPORT       : 20000
+RHOST:PORT  : 127.0.0.1:30000
+MTU         : 1500
