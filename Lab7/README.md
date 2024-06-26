@@ -18,9 +18,11 @@ VXLAN. Multihoming.
 
 leaf1
 
-![image](https://github.com/aatihonov/OTUS_24/assets/169416214/0e52537e-dd13-4306-8169-8b7eee26d5bd)
-![image](https://github.com/aatihonov/OTUS_24/assets/169416214/0029a42b-6b76-44b4-bc7e-2ffaea277fa5)
-![image](https://github.com/aatihonov/OTUS_24/assets/169416214/7a8deaf5-8318-483c-872b-ae37e43623f2)
+
+
+
+
+
 
 
 
@@ -31,5 +33,38 @@ leaf1
 
 
 Проверка доступности
+
+![image](https://github.com/aatihonov/OTUS_24/assets/169416214/e0905005-83a4-4642-bdc4-2a5a806df9c8)
+
+![image](https://github.com/aatihonov/OTUS_24/assets/169416214/10d728bf-10d4-4c0f-833f-84e527258923)
+
+![image](https://github.com/aatihonov/OTUS_24/assets/169416214/e0eb5a87-984b-4d9f-b6c7-bfe0377e862e)
+
+![image](https://github.com/aatihonov/OTUS_24/assets/169416214/12c27bdc-15d1-4b8a-8b7b-07d36bdce342)
+
+![image](https://github.com/aatihonov/OTUS_24/assets/169416214/d6ed4f0e-6ca6-4588-a817-5630a42749f6)
+
+![image](https://github.com/aatihonov/OTUS_24/assets/169416214/802ad264-1177-48cd-b0b4-3dc9ab7f258f)
+
+![image](https://github.com/aatihonov/OTUS_24/assets/169416214/f800b1ae-de7c-4816-8d5a-39ffb35119f8)
+
+![image](https://github.com/aatihonov/OTUS_24/assets/169416214/92dcbdbb-aab1-4ea0-89c9-4be0b7c32ac2)
+
+![image](https://github.com/aatihonov/OTUS_24/assets/169416214/337e14f7-fa3b-4c74-8f09-ee80d8069f98)
+
+![image](https://github.com/aatihonov/OTUS_24/assets/169416214/bf297f62-607f-4572-89bd-55f531d6d2ef)
+
+![image](https://github.com/aatihonov/OTUS_24/assets/169416214/5ab430ce-70da-4584-b1ff-6b2577c079a5)
+
+
+
+
+
+
+
+
+
+
+
 
 
