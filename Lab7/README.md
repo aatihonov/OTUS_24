@@ -16,21 +16,7 @@ VXLAN. Multihoming.
 
 Конфигурация оборудования
 
-leaf1
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+во вложенных файлах (конфиг уже большой, 1-й картинкой не вставить).
 
 Проверка доступности
 
@@ -56,6 +42,11 @@ leaf1
 
 ![image](https://github.com/aatihonov/OTUS_24/assets/169416214/5ab430ce-70da-4584-b1ff-6b2577c079a5)
 
+Убедиться, что связнность не теряется при отключении одного из линков.
+
+![image](https://github.com/aatihonov/OTUS_24/assets/169416214/e229b18d-b47f-492c-bf7d-113eb229e68b)
+
+![image](https://github.com/aatihonov/OTUS_24/assets/169416214/dcdba977-366b-4e31-bbb2-a075218a2198)
 
 
 
