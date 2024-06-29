@@ -31,6 +31,9 @@ VxLAN. Routing.
 
 ![image](https://github.com/aatihonov/OTUS_24/assets/169416214/886975da-b3eb-4323-9f97-aadf355d5751)
 
+![image](https://github.com/aatihonov/OTUS_24/assets/169416214/194f7040-defe-40b6-a11e-e50907956817)
+
+
 
 
 
