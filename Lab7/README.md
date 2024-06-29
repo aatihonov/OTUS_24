@@ -1,33 +1,61 @@
-Домашнее задание №1
+Домашнее задание №7
 
-Проектирование адресного пространства
+VXLAN. Multihoming.
 
 Цель:
-1. Собрать схему CLOS;
-2. Распределить адресное пространство.
+1. Настроить отказоустойчивое подключение клиентов с использованием EVPN Multihoming.
+2. Подключить клиентов 2-я линками к различным Leaf.
+3. Настроить агрегированный канал со стороны клиента.
+4. Настроить multihoming для работы в Overlay сети.
+5. Убедиться, что связность не теряется при отключении одного из линков.
 
 Выполнение:
-![image_CLOS](https://github.com/aatihonov/OTUS_24/assets/169416214/d2f85142-88c7-4e41-8cd2-6e611be4bbe5)
+Схема сети
 
-Таблица адресов
-
-![image](https://github.com/aatihonov/OTUS_24/assets/169416214/7e11277c-76e9-46d0-8ae6-09041a4639b8)
+![image_CLOS_BGP_EVPN L3_MH](https://github.com/aatihonov/OTUS_24/assets/169416214/5aff28ca-11f1-4f05-ac80-87ee7524004f)
 
 Конфигурация оборудования
 
-![image](https://github.com/aatihonov/OTUS_24/assets/169416214/ea06dd7f-d0d2-4d12-a7f4-9206edcf2469)
-
-![image](https://github.com/aatihonov/OTUS_24/assets/169416214/40d5ba41-91ae-4380-981c-b82ba8d23900)
-
-![image](https://github.com/aatihonov/OTUS_24/assets/169416214/c629835f-8e4d-443c-a99c-32edb33208f9)
-
-![image](https://github.com/aatihonov/OTUS_24/assets/169416214/284e9d66-98bc-4a95-83d8-cd7eb32be1e7)
-
-![image](https://github.com/aatihonov/OTUS_24/assets/169416214/9f7a90c8-243e-477f-96f1-c7a715e8d82f)
-
+во вложенных файлах (конфиг уже большой, 1-й картинкой не вставить).
 
 Проверка доступности
 
-![image](https://github.com/aatihonov/OTUS_24/assets/169416214/d75a8d22-9dae-45b7-91e8-7137af7b93a0)
+![image](https://github.com/aatihonov/OTUS_24/assets/169416214/e0905005-83a4-4642-bdc4-2a5a806df9c8)
 
-![image](https://github.com/aatihonov/OTUS_24/assets/169416214/302f7a7b-9f06-4895-a321-02e380a46311)
+![image](https://github.com/aatihonov/OTUS_24/assets/169416214/10d728bf-10d4-4c0f-833f-84e527258923)
+
+![image](https://github.com/aatihonov/OTUS_24/assets/169416214/e0eb5a87-984b-4d9f-b6c7-bfe0377e862e)
+
+![image](https://github.com/aatihonov/OTUS_24/assets/169416214/12c27bdc-15d1-4b8a-8b7b-07d36bdce342)
+
+![image](https://github.com/aatihonov/OTUS_24/assets/169416214/d6ed4f0e-6ca6-4588-a817-5630a42749f6)
+
+![image](https://github.com/aatihonov/OTUS_24/assets/169416214/802ad264-1177-48cd-b0b4-3dc9ab7f258f)
+
+![image](https://github.com/aatihonov/OTUS_24/assets/169416214/f800b1ae-de7c-4816-8d5a-39ffb35119f8)
+
+![image](https://github.com/aatihonov/OTUS_24/assets/169416214/92dcbdbb-aab1-4ea0-89c9-4be0b7c32ac2)
+
+![image](https://github.com/aatihonov/OTUS_24/assets/169416214/337e14f7-fa3b-4c74-8f09-ee80d8069f98)
+
+![image](https://github.com/aatihonov/OTUS_24/assets/169416214/bf297f62-607f-4572-89bd-55f531d6d2ef)
+
+![image](https://github.com/aatihonov/OTUS_24/assets/169416214/5ab430ce-70da-4584-b1ff-6b2577c079a5)
+
+Убедиться, что связность не теряется при отключении одного из линков.
+
+![image](https://github.com/aatihonov/OTUS_24/assets/169416214/e229b18d-b47f-492c-bf7d-113eb229e68b)
+
+![image](https://github.com/aatihonov/OTUS_24/assets/169416214/dcdba977-366b-4e31-bbb2-a075218a2198)
+
+
+
+
+
+
+
+
+
+
+
+
