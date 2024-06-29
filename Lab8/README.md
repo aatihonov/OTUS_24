@@ -14,7 +14,7 @@ VxLAN. Routing.
 ![image_CLOS_BGP_EVPN L3_RT5](https://github.com/aatihonov/OTUS_24/assets/169416214/64912484-9de6-4aaf-a7ef-a1b89969262b)
 
 Конфигурация оборудования
-во вложенных файлах (конфиг уже большой, 1-й картинкой не вставить).
+во вложенных файлах 
 
 Проверка доступности
 ![image](https://github.com/aatihonov/OTUS_24/assets/169416214/04710ce1-a608-41f9-a134-0197cabb569f)
